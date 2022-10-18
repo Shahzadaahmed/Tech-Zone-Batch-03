@@ -1,0 +1,82 @@
+/* div {
+    background-color : blue;
+    color: white;
+}
+
+h1 {
+    color: yellow;
+    background-color: brown;
+    text-align: center;
+} */
+
+/* h1,
+h2,
+h3 {
+    color: red;
+} */
+
+
+
+
+
+
+
+.paragraph-one {
+    background-color: yellow;
+}
+
+.paragraph-two {
+    background-color: red;
+}
+
+.paragraph-three {
+    background-color: blue;
+}
+
+
+
+.paragraph-one {
+    background-color: cadetblue;
+}
+
+.paragraph-one {
+    background-color: red;
+}
+
+#para_1 {
+    background-color: gold;
+}
+
+.paragraph-one {
+    background-color: green;
+}
+
+.paragraph-one {
+    background-color: lightblue;
+}
+
+.paragraph-one {
+    background-color: darkmagenta !important;
+}
+
+h1 {
+    /* color: black !important; */
+    /* font-family: monospace; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#heading {
+    /* color: red; */
+    color: #ba6a65;
+}
+
+.heading {
+    color: blue;
+    text-align: center;
+}
+
+
+h1 {
+    color: yellow;
+    /* font-style: italic; */
+}
