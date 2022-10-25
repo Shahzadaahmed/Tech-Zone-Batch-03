@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    background-color: lightskyblue;
+    color: darkblue;
+    position: fixed;
+    width: 100%;
+}
+
+p {
+    background-color: lightblue;
+    border: 1px solid darkblue;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* .container {
+    position: relative;
+    background-color: yellow;
+    height: 100vh;
+    width: 100%;
+} */
+
+/* .chat-icon {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+} */
