@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: aqua;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading-text {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: blue;
+}
+
+.btn {
+    background-color: blue;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}

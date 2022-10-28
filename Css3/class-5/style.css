@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    height: 100vh;
+    width: 100%;
+}
+
+.child {
+    height: 33.3vh;
+    display: flex;
+    border: 1px solid black;
+}
+
+.ahmed {
+    background-color: yellow;
+}
+
+.handleBg2 {
+    background-color: blue;
+}
+
+.handleBg3 {
+    background-color: red;
+}
+
+.inner-child1 {
+    background-color: lightskyblue;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.inner-child2 {
+    background-color: yellowgreen;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.inner-child3 {
+    background-color: lightgreen;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
