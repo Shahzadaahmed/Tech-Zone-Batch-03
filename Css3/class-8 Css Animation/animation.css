@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+}
+
+.box {
+    height: 15vh;
+    width: 7.5%;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: animated-box;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+
+@keyframes animated-box {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        top: 0;
+        left: 50%;
+    }
+
+    50% {
+        left: 50%;
+        top: 50vh;
+    }
+
+    75% {
+        top: 50vh;
+        left: 0;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+    }
+}
