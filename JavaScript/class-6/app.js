@@ -1,107 +1,44 @@
-// var roundVal = Math.round(2.5);
-// console.log(roundVal);
+// var arr = ["a", "b", "c", "d", "e", "b", "x", "z", "b", "m"];
+// console.log(arr);
 
-
-// console.log(Math.round(2.51));
-// console.log(Math.round(9.435));
-// console.log(Math.round(5.510));
-// console.log(Math.round(7.8));
-
-
-// var sqrtVal = Math.sqrt(81);
-// console.log(sqrtVal);
-
-
-// console.log(Math.sqrt(81));
-// console.log(Math.sqrt(9));
-// console.log(Math.sqrt(49));
-// console.log(Math.sqrt(8));
-
-
-// var randomVal = Math.random();
-// console.log(randomVal);
-
-// var test = randomVal * 5;
-// console.log(test);
-
-// var floorFormula = Math.floor(test) + 1;
-// console.log(floorFormula);
-
-
-// var ceilFormula = Math.ceil(test);
-// console.log(ceilFormula);
-
-
-// console.log(Math.ceil(54));
-// console.log(Math.ceil(6));
-// console.log(Math.ceil(2.3));
-// console.log(Math.ceil(9.921));
-// console.log(Math.ceil(10.123));
+// var findIndex = arr.indexOf("ahmed");
+// console.log(findIndex);
 
 
 
-// var piVal = Math.PI;
-// console.log(piVal);
+// var lastIndex = arr.lastIndexOf("b");
+// console.log(lastIndex);
+
+
+// Solution 11:
+
+// var studentsNames = ["Michael", "John", "Tony"];
+// var studentsScores = [320, 230, 480];
+// var totalMarks = 500;
+
+// console.log("Score of ", studentsNames[0], " is ", studentsScores[0], ". Percentage: ", ((studentsScores[0] * 100) / totalMarks), "%");
+// console.log("Score of ", studentsNames[1], " is ", studentsScores[1], ". Percentage: ", ((studentsScores[1] * 100) / totalMarks), "%");
+// console.log("Score of ", studentsNames[2], " is ", studentsScores[2], ". Percentage: ", ((studentsScores[2] * 100) / totalMarks), "%");
 
 
 
-// console.log(Math.abs(4));
-// console.log(Math.abs(-9.5));
-// console.log(Math.abs(-213));
-// console.log(Math.abs(6));
+// var numbersList = [320, 230, 480, 120];
+// console.log(numbersList.sort());
 
 
-// let maxVal = Math.max(2, 5.12, 561, -91.5, 78, 3, 561.2, 100);
-// console.log(maxVal);
+// SOlution:
 
+// var multidimensionalArr = [
+//     [0, 1, 2, 3],
+//     [1, 0, 1, 2],
+//     [2, 1, 0, 1],
+// ];
+// console.log(multidimensionalArr);
 
+// var arr = ["ahmed"];
+// var userInput = prompt("Enter color name!");
 
-// let minVal = Math.min(2, 5.12, 561, -91.5, 78, 3, 561.2, 100);
-// console.log(minVal);
+// // arr[0] = userInput;
+// arr.push(userInput);
 
-
-// console.log(Math.pow(3, 2));
-
-
-
-// var animals = ["lion", "tiger", "elephant", "zebra", "cat"];
-// console.log(animals);
-
-// var randomVal = Math.floor(Math.random() * animals.length);
-// console.log(randomVal);
-
-// console.log(animals[randomVal]);
-
-
-
-
-
-
-
-
-// var numVal = prompt("Enter any number!");
-// var numVal = 12.123;
-// numVal = Number(numVal);
-// numVal = parseInt(numVal);
-// console.log(numVal);
-// console.log(typeof numVal); 
-
-
-
-
-
-// var numToStr = 6;
-// // numToStr = String(numToStr);
-// numToStr = numToStr.toString();
-// console.log(numToStr, typeof numToStr);
-
-
-
-// var val = "1.999";
-// val = parseFloat(val);
-// console.log(val, typeof val);
-
-
-
-// var piVal = Math.PI;
-// console.log(piVal.toFixed(3));
+// console.log(arr);
