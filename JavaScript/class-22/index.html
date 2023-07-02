@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Game </title>
+</head>
+
+<body>
+    <div>
+        <h1> Bidding App Game </h1>
+        <h2> Coins: <span id="coins"></span> </h2>
+        <h2 id="message"></h2>
+        <h2> Your Bid Number: <span id="show-bid-no"></span> </h2>
+        <h2> Dice Number: <span id="show-dice-no"></span> </h2>
+        <hr />
+
+        <input type="number" placeholder="Enter Bid Number" id="bid-no" />
+        <br />
+
+        <input type="number" placeholder="Enter Amount" id="amount" />
+        <br />
+
+        <button id="play-game-btn" onclick="playGame()"> Play Game </button>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
