@@ -9,6 +9,7 @@ import WeatherApp from "./components/react-routing/weather/weather";
 import TableTab from "./components/react-routing/table-tab/table-tab";
 import GithubUserClone from "./components/react-routing/github-user-clone/github-user-clone";
 import Users from "./components/react-routing/users/users";
+import AhmedEditor from "./components/editor/editor";
 
 import {
     BrowserRouter as Router,
@@ -23,11 +24,11 @@ const App = () => {
     return (
         <React.Fragment>
             <Router>
-                <Navigation />
+                {/* <Navigation /> */}
                 {/* <h1> Hello React JS </h1> */}
 
                 <Routes>
-                    <Route path="/" element={<HomeComA />} />
+                    <Route path="/" element={<AhmedEditor />} />
                     <Route path="about" element={<AboutComB />} />
                     <Route path="contact" element={<ContactComC />} />
                     <Route path="list-data" element={<ListData />} />

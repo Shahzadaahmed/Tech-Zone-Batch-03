@@ -10,7 +10,7 @@ const Home = () => {
     useEffect(() => {
         if (localStorage.getItem("ProductList") != null) {
             let fetchProducts = localStorage.getItem("ProductList");
-            let products = JSON.parse(fetchProducts)
+            let products = JSON.parse(fetchProducts);
             console.log(products);
             setProductData(products)
         }

@@ -1,0 +1,21 @@
+#sectionContainer {
+    height: 100vh;
+    /* background-image: url("../assets/images/cover.jpg"); */
+    background: linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.custumInputField {
+    border-bottom: 1px solid #6f42c1 !important;
+    border-radius: 0;
+}
+
+.showErrMessage {
+    text-align: center;
+    color: #6f42c1;
+    font-weight: normal;
+    text-transform: capitalize;
+}

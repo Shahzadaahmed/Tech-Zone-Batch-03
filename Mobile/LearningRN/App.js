@@ -125,6 +125,7 @@ import TodoScreen from './src/screens/todo-screen/todo-screen';
 import FetchContacts from './src/components/contacts/contacts';
 import LearningCamera from './src/components/learning-camera/camera';
 import Gallery from './src/components/learning-gallery/gallery';
+import LearningStorage from './src/components/storage/storage';
 
 const App = () => {
 
@@ -132,6 +133,7 @@ const App = () => {
         <Provider store={store}>
             <NavigationContainer>
                 <Navigator>
+                    <Screen name='storage-screen' component={LearningStorage} options={{ headerShown: false }} />
                     <Screen name='Gallery' component={Gallery} options={{ headerShown: false }} />
                     <Screen name='Learning-Camera' component={LearningCamera} options={{ headerShown: false }} />
                     <Screen name='Fetch-Contacts' component={FetchContacts} options={{ headerShown: false }} />
